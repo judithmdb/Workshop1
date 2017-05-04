@@ -1,0 +1,133 @@
+.cuerpo{
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+.subrayado:before, .subrayado:after{
+	display: inline-block;
+	content: "";
+	background-color: black;
+	height: 3px;
+	width: 50px;
+	position: relative;
+
+}
+.estrella{
+	text-align: center;
+}
+
+/*.subrayado{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}*/
+header{
+	background: #18bc9c;
+}
+nav{
+	color: white;
+	background: #2c3e50;
+	text-transform: uppercase;
+	justify-content: space-around;
+	padding: 25px;
+	display: flex;
+	flex-direction: row-wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.menu{
+	display: flex;
+	flex-direction: row-wrap;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	text-align: center;
+}
+.portfolio{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+
+}
+.portfolio img{
+	margin: 15px;
+	height: 200px;
+}
+.portfolio nth-child(4, 5, 6){
+	display: flex;
+	align-content: space-around;
+}
+
+.about{
+	background: #18bc9c;
+	color: white;
+	width: 100%;
+	margin: 0 auto;
+	padding: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+}/*
+
+.about p{
+	/*
+	display: flex;
+	flex-direction: row-wrap;
+	align-items: center;
+	justify-content: space-around;
+	
+
+.about1{
+	display: flex;
+	flex-direction: row-wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.about2{
+	display: flex;
+	flex-direction: row-wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+box-sizing: border-box;
+	display: inline-block;
+	position: absolute;
+}
+*/	
+.aboutdiv{
+	box-sizing: border-box;
+	width: 40%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+
+}
+.contacto{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+}
+
+
+.contenedor{
+	max-width: 900px;
+	margin:auto;
+}
+.portfolio article{
+	width: 33%;
+}
+
+
+.copyright{
+	background: #2c3e50;
+}
+.footer1{
+	background: #233140;
+	color: #ffffff;
+}
