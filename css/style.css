@@ -207,10 +207,6 @@ input, textarea{
 	margin: auto;
 }
 
-.menu{
-	align-items: center;
-
-}
 
 .footer1 h4{
 	font-size: 22px;
@@ -227,4 +223,18 @@ input, textarea{
 	border-radius: 50%;
 	margin:auto;
 }
-/*holis*/
+
+.ion-navicon-round{
+	display: none;
+	/* Display none para que no se vea cuando no estoy en mobile*/
+}
+
+@media screen and (max-width: 768px){
+	.nada {
+		display: none;
+	}
+}
+
+
+
+
